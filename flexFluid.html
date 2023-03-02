@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            margin: auto;
+            max-width: 800px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 3rem;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+            width: 100%;
+        }
+
+        .control {
+            flex: 1 0 240px;
+        }
+
+        .submit {
+            flex: 1 1 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form>
+            <input type="text" class="control" placeholder="Username" />
+            <input type="email" class="control" placeholder="Email" />
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

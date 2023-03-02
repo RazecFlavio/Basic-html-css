@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            margin: 0 auto;
+            max-width: 1200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: gray;
+        }
+
+        h1 {
+            background-image: linear-gradient(to right, black, yellow, white);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            background-size: 300%;
+            background-position: -100%;
+            animation: animatedText 5s infinite alternate-reverse;
+        }
+
+        @keyframes animatedText {
+            to {
+                background-position: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>FLAVIO DE PAULA CEZAR</h1>
+    </main>
+</body>
+
+</html>
